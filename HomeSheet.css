@@ -1,0 +1,99 @@
+﻿body {
+    background-color: rgb(49, 242, 141);
+}
+
+.userinforow {
+    border-block: solid;
+    border-block-color: rgba(0,0,0,0.5);
+    background-color: rgba(204, 207, 197,0.5);
+    height: 50px;
+    border-radius: 30px;
+}
+
+.lblwlcm {
+    position: relative;
+    left: 45%;
+    top: 25%;
+    font-size: 24px;
+}
+
+.yourpatients, .allpatients {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.yourpatients {
+    top: 150px;
+}
+
+.allpatients {
+    top: 550px;
+}
+
+.lblyourpat, .lblallpat {
+    position: absolute;
+    top: -15%;
+    right: 47%;
+    border-radius: 4px;
+    background-color: rgba(204, 207, 197,0.5);
+    color: black;
+    font-size: 20px;
+}
+
+    .lblyourpat:hover, .lblallpat:hover {
+        font-weight: bold;
+        cursor: pointer;
+        right: 46%;
+    }
+
+.tblyp, .tblap {
+    position: absolute;
+    right: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    border-color: black;
+}
+
+.btns {
+    position: absolute;
+    top: 95%;
+    right: 50%;
+    background-color: transparent;
+}
+
+.btnlogout {
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+    .btnlogout:hover {
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+.lblempty {
+    position: absolute;
+    top: 0px;
+    right: 45%;
+}
+
+select {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+    select:hover {
+        background-color: #e6e6e6;
+    }
+
+option {
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 8px;
+}
